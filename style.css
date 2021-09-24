@@ -49,3 +49,7 @@ button {
   padding: 1rem;
   border-radius: 50px;
 }
+
+#note {
+  color: rgb(44, 44, 44);
+}
