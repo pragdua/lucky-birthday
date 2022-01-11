@@ -7,7 +7,7 @@ const checkDateIsLucky = () => {
   const dob = dateOfBirth.value;
   const sum = calcSum(dob);
 
-  if (sum && dob) {
+  if (sum && dob && luckyNumber.value) {
     if (sum % luckyNumber.value === 0) {
       outputBox.innerText = "your birthday is lucky! 🎉🥳";
     } else {
